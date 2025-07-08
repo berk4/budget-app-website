@@ -52,6 +52,11 @@
             background: rgba(255,255,255,0.2);
             border-color: rgba(255,255,255,0.5);
         }
+        .coming-soon {
+            background: rgba(255,255,255,0.05);
+            color: rgba(255,255,255,0.7);
+            cursor: default;
+        }
     </style>
 </head>
 <body>
@@ -60,8 +65,14 @@
         <p>Take control of your finances with our intuitive budget management app. Track expenses, set goals, and achieve financial freedom.</p>
         
         <div class="app-store-badges">
-            <a href="#" class="badge">📱 Download on App Store</a>
-            <a href="#" class="badge">🤖 Get it on Google Play</a>
+            <!-- Store linklerini uygulamanız yayınlandığında buraya ekleyeceksiniz -->
+            <span class="badge coming-soon">📱 Coming Soon to App Store</span>
+            <span class="badge coming-soon">🤖 Coming Soon to Google Play</span>
+            
+            <!-- Yayınlandıktan sonra şu şekilde olacak:
+            <a href="https://apps.apple.com/app/budget-friendly/idXXXXXXXX" class="badge">📱 Download on App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.berk3335.budgetfriendly" class="badge">🤖 Get it on Google Play</a>
+            -->
         </div>
     </div>
 </body>
